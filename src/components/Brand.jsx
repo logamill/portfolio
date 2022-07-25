@@ -2,6 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import rubyIcon from '../assets/images/assets/img/partners/1.png';
+import nodejsIcon from '../assets/images/assets/img/partners/2.png';
+import pythonIcon from '../assets/images/assets/img/partners/3.png';
+import reactIcon from '../assets/images/assets/img/partners/4.png';
+import railsIcon from '../assets/images/assets/img/partners/5.png';
+import sqlIcon from '../assets/images/assets/img/partners/6.png';
+import htmlIcon from '../assets/images/assets/img/partners/7.png';
+
 
 export default function SimpleSlider() {
   var settings = {
@@ -31,25 +39,25 @@ export default function SimpleSlider() {
     <ul>
       <Slider {...settings}>
         <li className="brand-logo">
-          <img src="assets/img/partners/1.png" alt="partners brand" />
+          <img src={rubyIcon} alt="partners brand" />
         </li>
         <li className="brand-logo">
-          <img src="assets/img/partners/2.png" alt="partners brand" />
+          <img src={nodejsIcon} alt="partners brand" />
         </li>
         <li className="brand-logo">
-          <img src="assets/img/partners/3.png" alt="partners brand" />
+          <img src={pythonIcon} alt="partners brand" />
         </li>
         <li className="brand-logo">
-          <img src="assets/img/partners/4.png" alt="partners brand" />
+          <img src={reactIcon} alt="partners brand" />
         </li>
         <li className="brand-logo">
-          <img src="assets/img/partners/5.png" alt="partners brand" />
+          <img src={railsIcon} alt="partners brand" />
         </li>
         <li className="brand-logo">
-          <img src="assets/img/partners/6.png" alt="partners brand" />
+          <img src={sqlIcon} alt="partners brand" />
         </li>
         <li className="brand-logo">
-          <img src="assets/img/partners/7.png" alt="partners brand" />
+          <img src={htmlIcon} alt="partners brand" />
         </li>
       </Slider>
     </ul>

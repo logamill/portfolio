@@ -5,6 +5,22 @@ import { SRLWrapper } from "simple-react-lightbox";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
+import spotOne from '../assets/images/assets/img/portfolio/4.jpg';
+import spotTwo from '../assets/images/assets/img/portfolio/3.jpg';
+import spotThree from '../assets/images/assets/img/portfolio/2.jpg';
+import spotFour from '../assets/images/assets/img/portfolio/10.jpg';
+
+import caroOne from '../assets/images/assets/img/portfolio/5.jpg';
+import caroTwo from '../assets/images/assets/img/portfolio/6.jpg';
+import caroThree from '../assets/images/assets/img/portfolio/7.jpg';
+import caroFour from '../assets/images/assets/img/portfolio/11.jpg';
+
+import uniqOne from '../assets/images/assets/img/portfolio/8.jpg';
+import uniqTwo from '../assets/images/assets/img/portfolio/9.jpg';
+import uniqThree from '../assets/images/assets/img/portfolio/1.jpg';
+
+{/* IMAGE IMPORTS */}
+
 
 const Portfolio = () => {
   // for popup video
@@ -68,9 +84,9 @@ const Portfolio = () => {
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
+                            <a href={spotOne}>
                               <img
-                                src="assets/img/portfolio/4.jpg"
+                                src={spotOne}
                                 alt="Spotifinder - View your advanced Spotify analytics and match with other users to find your own music soul mate!"
                               />
                             </a>
@@ -87,14 +103,14 @@ const Portfolio = () => {
                       data-aos-delay="100"
                     >
                             <div className="example-link">
-                        <a href="https://spotifinder-p5.herokuapp.com/">Link </a>
+                        <a href="https://carousel.herokuapp.com/">Link </a>
                         <a href="https://github.com/logamill/Phase-4-Project">Code </a>
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/6.jpg">
+                            <a href={caroOne}>
                               <img
-                                src="assets/img/portfolio/6.jpg"
+                                src={caroOne}
                                 alt="Carousel - Art/Photography sharing website built for professionals."
                               />
                             </a>
@@ -112,14 +128,14 @@ const Portfolio = () => {
                       data-aos-delay="200"
                     >
                     <div className="example-link">
-                        <a href="https://spotifinder-p5.herokuapp.com/">Link </a>
+                        <a href="https://not-uniqlo.herokuapp.com/">Link </a>
                         <a href="https://github.com/logamill/Phase-2-Project">Code </a>
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/9.jpg">
+                            <a href={uniqOne}>
                               <img
-                                src="assets/img/portfolio/9.jpg"
+                                src={uniqOne}
                                 alt="≠ Uniqlo - E-commerce website built for users to favorite, like and sell street-clothing."
                               />
                             </a>
@@ -142,9 +158,9 @@ const Portfolio = () => {
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
+                            <a href={spotOne}>
                               <img
-                                src="assets/img/portfolio/4.jpg"
+                                src={spotOne}
                                 alt="Spotifinder - Home"
                               />
                             </a>
@@ -158,9 +174,9 @@ const Portfolio = () => {
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/2.jpg">
+                            <a href={spotThree}>
                               <img
-                                src="assets/img/portfolio/2.jpg"
+                                src={spotThree}
                                 alt="User Analytics"
                               />
                             </a>
@@ -178,9 +194,9 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
+                            <a href={spotTwo}>
                               <img
-                                src="assets/img/portfolio/3.jpg"
+                                src={spotTwo}
                                 alt="User-Compare & Match"
                               />
                             </a>
@@ -198,9 +214,9 @@ const Portfolio = () => {
                         >
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/10.jpg">
+                            <a href={spotFour}>
                               <img
-                                src="assets/img/portfolio/10.jpg"
+                                src={spotFour}
                                 alt="Top Tracks Carousel"
                               />
                             </a>
@@ -227,9 +243,9 @@ const Portfolio = () => {
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/5.jpg">
+                            <a href={caroOne}>
                               <img
-                                src="assets/img/portfolio/5.jpg"
+                                src={caroOne}
                                 alt="Carousel - Home"
                               />
                             </a>
@@ -248,9 +264,9 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/6.jpg">
+                            <a href={caroTwo}>
                               <img
-                                src="assets/img/portfolio/6.jpg"
+                                src={caroTwo}
                                 alt="Browse Carousel"
                               />
                             </a>
@@ -264,9 +280,9 @@ const Portfolio = () => {
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/7.jpg">
+                            <a href={caroThree}>
                               <img
-                                src="assets/img/portfolio/7.jpg"
+                                src={caroThree}
                                 alt="Carousel - Personal Portfolio Browse"
                               />
                             </a>
@@ -284,9 +300,9 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/11.jpg">
+                            <a href={caroFour}>
                               <img
-                                src="assets/img/portfolio/11.jpg"
+                                src={caroFour}
                                 alt="View Posts and Comment"
                               />
                             </a>
@@ -314,9 +330,9 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/8.jpg">
+                            <a href={uniqOne}>
                               <img
-                                src="assets/img/portfolio/8.jpg"
+                                src={uniqOne}
                                 alt="Landing Page - Scroll Parallax"
                               />
                             </a>
@@ -335,9 +351,9 @@ const Portfolio = () => {
                     >
                     <div className="inner">
                       <div className="entry lm_portfolio_animation_wrap">
-                        <a href="assets/img/portfolio/9.jpg">
+                        <a href={uniqTwo}>
                           <img
-                            src="assets/img/portfolio/9.jpg"
+                            src={uniqTwo}
                             alt="Category Header"
                           />
                         </a>
@@ -349,9 +365,9 @@ const Portfolio = () => {
                     </div>
                     <div className="inner">
                       <div className="entry lm_portfolio_animation_wrap">
-                        <a href="assets/img/portfolio/1.jpg">
+                        <a href={uniqThree}>
                           <img
-                            src="assets/img/portfolio/1.jpg"
+                            src={uniqThree}
                             alt="Item Modal"
                           />
                         </a>

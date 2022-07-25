@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
+import homeImg from '../assets/images/assets/img/slider/1.jpg'
+import cancel from "../assets/images/assets/img/svg/cancel.svg"
 
 Modal.setAppElement("#root");
 
@@ -15,7 +17,7 @@ const About = () => {
     <>
       <div className="lm_about">
         <div className="about_image ">
-          <img src="assets/img/slider/1.jpg" alt="about" />
+          <img src={homeImg} alt="about" />
         </div>
         <div className="description">
           <h3 className="name">Logan Miller | Full-Stack Software Engineer</h3>
@@ -81,7 +83,7 @@ const About = () => {
       >
         <div className="lm_modalbox_about">
           <button className="close-modal" onClick={toggleModal}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* END POPUP CLOSE BUTTON */}
           <div className="box-inner">

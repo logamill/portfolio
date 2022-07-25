@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+import background from '../assets/images/assets/img/slider/1.jpg'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundImage: {background},
               }}
             ></div>
             {/* END AVATAR IMAGE */}

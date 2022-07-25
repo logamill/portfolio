@@ -6,6 +6,13 @@ import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
 import Resume from "../../components/Resume";
 import Contact from "../../components/Contact";
+import logamill from '../../assets/images/assets/img/logo/logamilldark.png';
+import homerun from '../../assets/images/assets/img/svg/home-run.svg';
+import avatar from '../../assets/images/assets/img/svg/avatar.svg';
+import briefcase from '../../assets/images/assets/img/svg/briefcase.svg';
+import paper from '../../assets/images/assets/img/svg/paper.svg';
+import mail from '../../assets/images/assets/img/svg/mail.svg'
+
 
 const HomeDark = () => {
   document.body.classList.add("dark");
@@ -18,7 +25,7 @@ const HomeDark = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/logamilldark.png" alt="brand" />
+                  <img src={logamill} alt="brand" />
                 </Link>
               </div>
               {/* END LOGO */}
@@ -28,7 +35,7 @@ const HomeDark = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/home-run.svg"
+                      src={homerun}
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
@@ -36,7 +43,7 @@ const HomeDark = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/avatar.svg"
+                      src={avatar}
                       alt="avatar"
                     />
                     <span className="menu_content">About</span>
@@ -44,7 +51,7 @@ const HomeDark = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/briefcase.svg"
+                      src={briefcase}
                       alt="briefcase"
                     />
                     <span className="menu_content">Portfolio</span>
@@ -52,7 +59,7 @@ const HomeDark = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/paper.svg"
+                      src={paper}
                       alt="paper"
                     />
                     <span className="menu_content">Resume</span>
@@ -60,7 +67,7 @@ const HomeDark = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/mail.svg"
+                      src={mail}
                       alt="mail"
                     />
                     <span className="menu_content"> Contact</span>
