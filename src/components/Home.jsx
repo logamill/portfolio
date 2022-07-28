@@ -20,7 +20,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Logan miller</h3>
             <p className="job">
-              Full-Stack Software Engineer based in New York City.
+              Full-Stack Software Engineer based in New York City
             </p>
             <span><p>React | HTML | CSS | Javascript | Ruby | Rails | Python</p></span>
             {/* END JOB */}

@@ -108,9 +108,9 @@ const Portfolio = () => {
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href={caroOne}>
+                            <a href={caroTwo}>
                               <img
-                                src={caroOne}
+                                src={caroTwo}
                                 alt="Carousel - Art/Photography sharing website built for professionals."
                               />
                             </a>

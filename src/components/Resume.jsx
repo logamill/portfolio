@@ -12,8 +12,8 @@ const Resume = () => {
             </div>
             <div className="lm-resume-bullets">
               <p>
-                Attended a 15-week intensive software engineering bootcamp in the heart of Manhattan focused on teaching a full-stack Ruby on Rails environment while utilizing React JS for the front-end.
-                As part of the program I attended lectures, completed individual and group programming assignments, code challenges and projects to demonstrate a comprehensive understanding of both the theory and applications necessary to become a software engineering professional. Chosen to come and present project as well as mentor students following graduation at various open-house events.
+                15-week intensive software engineering bootcamp in the heart of Manhattan focused on teaching a full-stack Ruby on Rails environment while utilizing React JS for the front-end.
+                As part of the program I attended lectures, completed individual and group programming assignments, code challenges and projects to demonstrate a comprehensive understanding of both theory and implementation necessary to become a software engineering professional. Selected to present project as well as mentor students following graduation at various open-house events.
               </p>
               <span>Projects:</span>
               <span className="project-headers">≠ Uniqlo</span>

@@ -7,7 +7,7 @@ const Contact = () => {
   const [viewport, setViewport] = useState({
     latitude: 40.712776,
     longitude: -74.005974,
-    zoom: 8,
+    zoom: 13,
   });
 
   function sendEmail(e) {
@@ -15,7 +15,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "gmail",
+        "service_d25or9k",
         "template_uhww87h",
         e.target,
         "AT0o4AS2c5I2oNKNF"
