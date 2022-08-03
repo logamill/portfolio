@@ -24,7 +24,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Recently graduated from Flatiron School's Software Engineering Bootcamp in NYC. Background in legal-tech working as a technical writer at a firm called Kraft Kennedy. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021. 
+                Recently graduated from Flatiron School's Software Engineering Bootcamp in NYC. Extensive background in legal-tech working as a both a technical specialist and technical writer at a firm called Kraft Kennedy in New York. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021. 
               </p>
               <div className="lm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -44,7 +44,7 @@ const About = () => {
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">loganmiller214@gmail.com</a>
+                    <a href="mailto:mail@gmail.com">logamills@gmail.com</a>
                   </p>
                 </li>
                 <li>

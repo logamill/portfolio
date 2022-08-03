@@ -14,11 +14,15 @@ import caroOne from '../assets/images/assets/img/portfolio/5.jpg';
 import caroTwo from '../assets/images/assets/img/portfolio/6.jpg';
 import caroThree from '../assets/images/assets/img/portfolio/7.jpg';
 import caroFour from '../assets/images/assets/img/portfolio/11.jpg';
+import caroFive from '../assets/images/assets/img/portfolio/12.jpg';
 
 import uniqOne from '../assets/images/assets/img/portfolio/8.jpg';
 import uniqTwo from '../assets/images/assets/img/portfolio/9.jpg';
 import uniqThree from '../assets/images/assets/img/portfolio/1.jpg';
 
+import { FaGithub } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
+import { FaYoutube } from 'react-icons/fa';
 {/* IMAGE IMPORTS */}
 
 
@@ -79,8 +83,9 @@ const Portfolio = () => {
                         data-aos-delay="300"
                       >
                       <div className="example-link">
-                        <a href="https://spotifinder-p5.herokuapp.com/">Link </a>
-                        <a href="https://github.com/logamill/Phase-5-Spotifinder">Code </a>
+                        <a href="https://github.com/logamill/Phase-5-Spotifinder">Code <FaGithub /></a><span>|</span>
+                        <a href="https://spotifinder-p5.herokuapp.com/">Link <FaLink /></a><span>|</span>
+                        <a href="https://www.youtube.com/watch?v=7hLXvhpesMQ&ab_channel=logamill">Demo <FaYoutube /></a>
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
@@ -102,15 +107,15 @@ const Portfolio = () => {
                       data-aos-duration="1200"
                       data-aos-delay="100"
                     >
-                            <div className="example-link">
-                        <a href="https://carousel.herokuapp.com/">Link </a>
-                        <a href="https://github.com/logamill/Phase-4-Project">Code </a>
+                      <div className="example-link">
+                        <a href="https://github.com/logamill/Phase-4-Project">Code <FaGithub /></a><span>|</span>
+                        <a href="https://youtu.be/jyal3JsCRA0">Demo <FaYoutube /></a>
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">
-                            <a href={caroTwo}>
+                            <a href={caroFive}>
                               <img
-                                src={caroTwo}
+                                src={caroFive}
                                 alt="Carousel - Art/Photography sharing website built for professionals."
                               />
                             </a>
@@ -128,8 +133,8 @@ const Portfolio = () => {
                       data-aos-delay="200"
                     >
                     <div className="example-link">
-                        <a href="https://not-uniqlo.herokuapp.com/">Link </a>
-                        <a href="https://github.com/logamill/Phase-2-Project">Code </a>
+                        <a href="https://github.com/logamill/Phase-2-Project">Code <FaGithub /></a><span>|</span>
+                        <a href="https://youtu.be/wY45c3mwI9s">Demo <FaYoutube /></a>
                       </div>
                         <div className="inner">
                           <div className="entry lm_portfolio_animation_wrap">

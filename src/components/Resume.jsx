@@ -16,33 +16,40 @@ const Resume = () => {
                 As part of the program I attended lectures, completed individual and group programming assignments, code challenges and projects to demonstrate a comprehensive understanding of both theory and implementation necessary to become a software engineering professional. Selected to present project as well as mentor students following graduation at various open-house events.
               </p>
               <span>Projects:</span>
-              <span className="project-headers">≠ Uniqlo</span>
-                <ul>
-                  <li>Application built in React with CSS and Bootstrap 
-                  </li>
-                  <li>E-Commerce website built with local API</li>
-                  <li>Users can upload their own clothing to sell or browse other offerings by cateogory and favorite items they like</li>
-                </ul>
-              <span className="project-headers">Carousel</span>
-                <ul>
-                  <li>Front-end focused website built in React with a Ruby on Rails back-end 
-                  </li>
-                  <li>Photo/art sharing wesbite that aimed to utilize an old-fashioned projector-esque carousel in order to showcase various user-submitted works for other users to view and comment on</li>
-                  <li>Full CRUD application with authorization and session controllers
-                  </li>
-                </ul>
               <span className="project-headers">Spotifinder</span>
-                <ul>
-                  <li>Full-stack application that allows users to log in and link their Spotify account in order to view their advanced listening analytics, browse their top songs and artists and compare their listening analytics with other users and see how they match based off a percentage.
+                <ul>Browse users and compare advanced Spotify analytics and top tracks/artists to see who is your closest music match!
+
+                  <li>Utilized Spotify API and OmniAuth 2.0 to authenticate users and link their Spotify account to pull advanced analytics
                   </li>
-                  <li>Authorization achieved with both Rails bcrypt and OAuth 2.0</li>
+                  <li>Designed and implemented formulas to parse data and assign numerical values to user’s analytical categories in order to present data and match users based on a percentage out of 100
+                  </li>
                   <li>All aspects of project designed and implemented over a 3-week period</li>
                   <li>User data is persisted on the back-end once an account is linked in order to allow the user to access their data and account without having to keep signing in to Spotify</li>
+                  <li>Implemented conditional rendering to SASS design to make application usable on all mobile devices
+                  </li>
+                </ul>
+              <span className="project-headers">Carousel</span>
+                <ul>App for professional photographers and artists to showcase their work to peers in a unique way
+
+                  <li>Front-end focused website built in React with a Ruby on Rails back-end 
+                  </li>
+                  <li>Created and designed 3D projector-like wheel that allows users to scroll through images using only SASS and React
+                  </li>
+                  <li>Full authentication achieved through Bcrpyt and ActiveRecord session storage
+                  </li>
+                  <li>All data persisted on the back-end through Ruby on Rails and conditionally rendered in React utilizing hooks
+                  </li>
+                </ul>
+                <span className="project-headers">≠ Uniqlo</span>
+                <ul>E-commerce site built in the vein of popular sites like Urban Outfitters, American Appareal and (surprise, surprise) Uniqlo!
+                  <li>Designed user interface with React and implemented Parallax library to achieve styling
+                  </li>
+                  <li>Called RESTful API endpoints while utilizing state and hooks to conditionally render data based on various categories to avoid forcing unneeded additional communication with server</li>
                 </ul>
                 </div>
                 {/* END DEV */}
                 <div className="work-container">
-                  <h3 className="work-name">Work</h3>
+                  <h3 className="work-name">Work Experience</h3>
                   <h5>Technical Writer | Kraft Kennedy, New York, NY</h5>
                   <h6>January 2017 - 2021</h6>
                 </div>
@@ -73,9 +80,6 @@ const Resume = () => {
                     <p>Completed the following certifications in the top 90% of the class</p>
                     <ul>
                       <li>
-                        Developed a currency coverter and controlled program flow
-                      </li>
-                      <li>
                         Mastering Data Structures
                       </li>
                       <li>
@@ -84,7 +88,7 @@ const Resume = () => {
                     </ul>
                   </div>
                   <h5>Háskóli Íslands (University of Iceland)</h5>
-                  <h6>Nordic Studies Graduate Program</h6>
+                  <h6>Norse Studies Graduate Program</h6>
                   <h6>Fall 2020 - Fall 2021</h6>
                   <div className="lm-resume-bullets">
                     <p></p>
