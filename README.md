@@ -8,4 +8,4 @@ Personal portfolio created to display relevant projects, demos, work experience 
 
 Design should look like the below as of most recent commit - 08.10.2022
 
-![Alt text](/src/assets/images/assets/example.jpgraw=true "Example Home Page")
+![Alt text](/src/assets/images/assets/example.jpg?raw=true "Example Home Page")
