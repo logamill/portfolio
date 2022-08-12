@@ -8,4 +8,4 @@ Personal portfolio created to display relevant projects, demos, work experience 
 
 Design should look like the below as of most recent commit - 08.10.2022
 
-![Portfolio Home](https://raw.githubusercontent.com/logamill/portfolio/main/src/assets/images/example.jpg?raw=true "Example Home Page")
+![Portfolio Home](https://raw.githubusercontent.com/logamill/portfolio/main/src/assets/example.jpg?raw=true "Example Home Page")
