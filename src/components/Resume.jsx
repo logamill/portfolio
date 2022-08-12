@@ -12,7 +12,7 @@ const Resume = () => {
             </div>
             <div className="lm-resume-bullets">
               <p>
-                15-week intensive software engineering bootcamp in the heart of Manhattan focused on teaching a full-stack Ruby on Rails environment while utilizing React JS for the front-end.
+                15-week intensive software engineering bootcamp in the heart of Manhattan focused around building full-stack applications utilizing a Ruby on Rails back-end environment with React js for the front-end.
                 As part of the program I attended lectures, completed individual and group programming assignments, code challenges and projects to demonstrate a comprehensive understanding of both theory and implementation necessary to become a software engineering professional. Selected to present project as well as mentor students following graduation at various open-house events.
               </p>
               <span>Projects:</span>
@@ -24,7 +24,7 @@ const Resume = () => {
                   <li>Designed and implemented formulas to parse data and assign numerical values to user’s analytical categories in order to present data and match users based on a percentage out of 100
                   </li>
                   <li>All aspects of project designed and implemented over a 3-week period</li>
-                  <li>User data is persisted on the back-end once an account is linked in order to allow the user to access their data and account without having to keep signing in to Spotify</li>
+                  <li>User data is persisted on the back-end in a Postgresql table once an account is linked in order to allow the user to access their data and account without having to keep signing in to Spotify</li>
                   <li>Implemented conditional rendering to SASS design to make application usable on all mobile devices
                   </li>
                 </ul>
@@ -50,23 +50,40 @@ const Resume = () => {
                 {/* END DEV */}
                 <div className="work-container">
                   <h3 className="work-name">Work Experience</h3>
-                  <h5>Technical Writer | Kraft Kennedy, New York, NY</h5>
-                  <h6>January 2017 - 2021</h6>
+                  <h5>Sales Operations Specialist| Kraft Kennedy, New York, NY</h5>
+                  <h6>Jan 2019 - Aug 2021</h6>
                 </div>
                 <div className="lm-resume-bullets">
-                  <p>
-                    Drafted and created pricing as well as legal contracts for law firms and global businesses worldwide. Met with COOs, CFOs, CEOs, and other company leaders of Fortune 500 and AMLaw 100 firms in order to establish relationships, discuss contracts and sign clients. Created a standardized contract template system in order to streamline business continuity as well as training documentation for employee on-boarding.
-                  </p>
                   <ul>
                     <li>
-                      Wrote technical documents on a variety of offerings such as Azure, SQL, AWS, Microsoft 365 and more
+                      Worked with the sales team as a technical resource and expert to help to facilitate deals by meeting with COOs,
+                      CFOs, and other company leaders of Fortune 500 and AMLaw 100 firms all across Manhattan
                     </li>
                     <li>
-                      Worked with sales team in order to facilitate work-flow as a technical resource and expert 
+                      Lead Microsoft Gold Partnership Program and worked closely with Microsoft colleagues to validate offerings and
+                      have them listed in various Microsoft affiliate marketplaces
                     </li>
                     <li>
-                      Lead Microsoft Gold Partnership program to validate offerings and have them listed in Azure marketplace
+                      Helped design systems in CRMs to allow for better data analysis and organization
                     </li>
+                  </ul>
+                  <h5>Technical Writer | Kraft Kennedy, New York, NY</h5>
+                  <h6>Jan 2017 - Jan 2019</h6>
+                </div>
+                <div className="lm-resume-bullets">
+                  <ul>
+                    <li>
+                      Wrote technical documentation for a variety of offerings such as Azure, SQL, AWS, Microsoft 365 and more in order
+                      to streamline user experience and optimize workflow
+                    </li>
+                    <li>
+                      Designed a template system for all RFP responses and proposals to streamline business and increase response
+                      times 
+                    </li>
+                    <li>
+                      Responded to RFP's from a variety of clients ranging from legal and financial to government 
+                    </li>
+
                   </ul>
                   </div>
                   {/* END WORK */}
@@ -88,7 +105,7 @@ const Resume = () => {
                     </ul>
                   </div>
                   <h5>Háskóli Íslands (University of Iceland)</h5>
-                  <h6>Norse Studies Graduate Program</h6>
+                  <h6>Coursework completed towards Norse Studies Master of Arts</h6>
                   <h6>Fall 2020 - Fall 2021</h6>
                   <div className="lm-resume-bullets">
                     <p></p>

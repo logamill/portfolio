@@ -24,7 +24,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Recently graduated from Flatiron School's Software Engineering Bootcamp in NYC. Extensive background in legal-tech working as a both a technical specialist and technical writer at a firm called Kraft Kennedy in New York. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021. 
+                Recently graduated from Flatiron School's Software Engineering Bootcamp in NYC. Extensive background in legal-tech working as a both a technical specialist and technical writer at a firm called Kraft Kennedy in New York. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021. When I'm not coding you can find me at the beach in the summer or wherever you can find snow in the winter!
               </p>
               <div className="lm_button">
                 <button onClick={toggleModal} className="ib-button">
