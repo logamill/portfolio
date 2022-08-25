@@ -22,10 +22,10 @@ const HomeDark = () => {
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
-              <div className="logo">
-
+              <div className="lm_logo">
+                <Tab>
                   <img src={logamill} alt="brand" />
-
+                </Tab>
               </div>
               {/* END LOGO */}
 

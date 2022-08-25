@@ -46,7 +46,6 @@ const Portfolio = () => {
     <>
     <div className="lm_portfolio">
       <SimpleReactLightbox>
-        
           <div className="lm_title">
             <div className="title_flex">
               <div className="left">
