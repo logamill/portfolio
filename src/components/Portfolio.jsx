@@ -44,13 +44,14 @@ const Portfolio = () => {
 
   return (
     <>
+    <div className="lm_portfolio">
       <SimpleReactLightbox>
-        <div className="lm_portfolio">
+        
           <div className="lm_title">
             <div className="title_flex">
               <div className="left">
                 <span>Portfolio</span>
-                <h3>Development Portfolio</h3>
+                <h3>Projects</h3>
               </div>
             </div>
           </div>
@@ -393,8 +394,9 @@ const Portfolio = () => {
               {/* END LIST WRAPPER */}
             </Tabs>
           </div>
-        </div>
+        
       </SimpleReactLightbox>
+      </div>
 
       {/* all modal video and popup goes here */}
       <ModalVideo

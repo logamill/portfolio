@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { GiWaveSurfer } from "react-icons/gi";
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { GiSurfBoard, GiHockey, GiGuitar, GiGuitarBassHead, GiGamepad, GiSailboat, GiHiking, GiSkateboard, GiSnowing, GiDutchBike } from "react-icons/gi";
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import homeImg from '../assets/images/assets/img/slider/1.jpg'
 import cancel from "../assets/images/assets/img/svg/cancel.svg"
 
@@ -22,20 +22,28 @@ const About = () => {
         <div className="lm_title"> 
         <div className="left">
           <span>About</span>
+          {/* <h3 className="name">Logan Miller | Full-Stack Software Engineer</h3> */}
         </div>
         </div>
         <div className="about_image ">
           <img src={homeImg} alt="about" />
         </div>
         <div className="description">
-          <h3 className="name">Logan Miller | Full-Stack Software Engineer</h3>
-          <h3>{
-            <FontAwesomeIcon icon={GiWaveSurfer} />
-          }</h3>
+            <div className="lm_about_icons">
+              <GiHockey className="about_icons" style={{height: "35px", width: "35px"}}/>
+              <GiGuitarBassHead className="about_icons" style={{height: "35px", width: "35px"}}/>
+              <GiSailboat className="about_icons" style={{height: "35px", width: "35px"}} />
+              <GiSurfBoard className="about_icons" style={{height: "35px", width: "35px"}}/>
+              <GiDutchBike className="about_icons" style={{height: "35px", width: "35px"}} />
+              <GiSkateboard className="about_icons" style={{height: "35px", width: "35px"}} />
+              <GiGamepad className="about_icons" style={{height: "35px", width: "35px"}} />
+              <GiHiking className="about_icons" style={{height: "35px", width: "35px"}} />
+              <GiSnowing className="about_icons" style={{height: "35px", width: "35px"}} />
+            </div>
           <div className="description_inner">
             <div className="left">
               <p>
-                Recently graduated from Flatiron School's Software Engineering Bootcamp in NYC. Extensive background in legal-tech working as a both a technical specialist and technical writer at a firm called Kraft Kennedy in New York. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021. When I'm not coding you can find me at the beach in the summer or wherever you can find snow in the winter!
+                Full-stack developer experienced in Ruby on Rails, React.js, Python and JavaScript with a background in legal technology. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021 as part of an international Masters program. When I'm not coding you can find me at the beach in the summer or wherever you can find snow in the winter!
               </p>
               <div className="lm_button">
                 <button onClick={toggleModal} className="ib-button">
