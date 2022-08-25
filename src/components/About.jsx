@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { GiWaveSurfer } from "react-icons/gi";
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import homeImg from '../assets/images/assets/img/slider/1.jpg'
 import cancel from "../assets/images/assets/img/svg/cancel.svg"
 
@@ -16,11 +19,19 @@ const About = () => {
   return (
     <>
       <div className="lm_about">
+        <div className="lm_title"> 
+        <div className="left">
+          <span>About</span>
+        </div>
+        </div>
         <div className="about_image ">
           <img src={homeImg} alt="about" />
         </div>
         <div className="description">
           <h3 className="name">Logan Miller | Full-Stack Software Engineer</h3>
+          <h3>{
+            <FontAwesomeIcon icon={GiWaveSurfer} />
+          }</h3>
           <div className="description_inner">
             <div className="left">
               <p>

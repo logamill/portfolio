@@ -22,7 +22,7 @@ const Home = () => {
             <p className="job">
               Full-Stack Software Engineer based in New York City
             </p>
-            <span><p>React | HTML | CSS | Javascript | Ruby | Rails | Python</p></span>
+            <span><p>React | HTML | CSS | JavaScript | Ruby | Rails | Python</p></span>
             {/* END JOB */}
             <Social />
           </div>

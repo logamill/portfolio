@@ -846,7 +846,10 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 62px;
+  // margin-bottom: 62px;
+  @media screen and (max-width: 767px) {
+    // margin-bottom: 60px;
+  }
 }
 .lm_title h3 {
   font-weight: 800;
@@ -1035,14 +1038,14 @@ ul.react-tabs__tab-list {
   padding: 100px 0px 45px 0px;
 }
 .lm_resume ul {
-  margin: 0px 0px 0px -50px;
-  list-style-type: none;
+  // margin: 0px 0px 0px -50px;
+  // list-style-type: none;
 }
 .lm_resume ul li {
-  margin: 0px 0px 45px 0px;
-  float: left;
-  width: 50%;
-  padding-left: 50px;
+  // margin: 0px 0px 45px 0px;
+  // float: left;
+  // width: 50%;
+  // padding-left: 50px;
   @media screen and (max-width: 576px) {
     margin: 0px 0px 40px 0px;
   }
@@ -2158,11 +2161,11 @@ body.modal {
 }
 
 
-.lm-resume {
-  margin-top: 10%;
+.lm_resume {
+  // margin-top: 10%;
   max-width: 85%;
   @media only screen and (max-width: 1024px)  {
-      margin-top: 25%;
+      // margin-top: 25%;
   }
 
   h3 {
@@ -2183,7 +2186,7 @@ body.modal {
 
 }
 
-.lm-resume-bullets {
+.lm_resume_bullets {
   display: flex;
   flex-direction: column;
 

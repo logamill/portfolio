@@ -1,6 +1,5 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
@@ -24,9 +23,9 @@ const HomeDark = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
+
                   <img src={logamill} alt="brand" />
-                </Link>
+
               </div>
               {/* END LOGO */}
 
