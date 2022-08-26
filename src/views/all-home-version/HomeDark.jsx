@@ -11,6 +11,7 @@ import avatar from '../../assets/images/assets/img/svg/avatar.svg';
 import briefcase from '../../assets/images/assets/img/svg/briefcase.svg';
 import paper from '../../assets/images/assets/img/svg/paper.svg';
 import mail from '../../assets/images/assets/img/svg/mail.svg'
+import { Link } from "react-router-dom";
 
 
 const HomeDark = () => {
@@ -23,9 +24,9 @@ const HomeDark = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="lm_logo">
-                <Tab>
+                <Link to={Home}>
                   <img src={logamill} alt="brand" />
-                </Tab>
+                </Link>
               </div>
               {/* END LOGO */}
 

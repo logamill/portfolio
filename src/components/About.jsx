@@ -22,7 +22,7 @@ const About = () => {
         <div className="lm_title"> 
         <div className="left">
           <span>About</span>
-          {/* <h3 className="name">Logan Miller | Full-Stack Software Engineer</h3> */}
+          <h3 className="name">About Me</h3>
         </div>
         </div>
         <div className="about_image ">
@@ -121,7 +121,7 @@ const About = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">React | Javascript</span>
+                        <span className="label">React, JavaScript, Redux</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -136,7 +136,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">HTML | PHP</span>
+                        <span className="label">HTML, PHP</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -146,7 +146,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">CSS | SASS </span>
+                        <span className="label">CSS, SASS, Bootstrap, Tailwind </span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -166,7 +166,7 @@ const About = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Ruby | Python</span>
+                        <span className="label">Ruby, Python</span>
                       
                       </span>
                       <div className="background">
@@ -176,7 +176,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Rails</span>
+                        <span className="label">Rails, ActiveRecord</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -185,7 +185,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">ActiveRecord | SQL</span>
+                        <span className="label">SQL, Postgresql, Node.js, OmniAuth</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
