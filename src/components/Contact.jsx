@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
         </div>
         {/* END TITLE */}
-
+        
         <div className="map_wrap">
           <div className="map">
             <ReactMapGL
