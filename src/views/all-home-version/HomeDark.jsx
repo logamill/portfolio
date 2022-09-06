@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { WiMoonAltWaxingCrescent3 } from "react-icons/wi";
 import Home from "../../components/Home";
 import About from "../../components/About";
