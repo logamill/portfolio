@@ -202,6 +202,19 @@ body.dark .lm_resume ul li .details .date a:hover {
   color: #fff;
 }
 
+body.dark .lm_resume_bullets {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-left: 1em;
+    color: #dfdfdf;
+  }
+}
+
 body.dark .lm_contact .fields ul li input {
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;

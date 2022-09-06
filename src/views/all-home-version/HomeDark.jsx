@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Link, useHistory } from "react-router-dom";
+import { WiMoonAltWaxingCrescent3 } from "react-icons/wi";
 import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
@@ -11,11 +13,19 @@ import avatar from '../../assets/images/assets/img/svg/avatar.svg';
 import briefcase from '../../assets/images/assets/img/svg/briefcase.svg';
 import paper from '../../assets/images/assets/img/svg/paper.svg';
 import mail from '../../assets/images/assets/img/svg/mail.svg'
-import { Link } from "react-router-dom";
 
 
 const HomeDark = () => {
+  const [dark, setDark] = useState(true)
   document.body.classList.add("dark");
+  let history = useHistory();
+
+  function toggleMode(){
+    setDark(!dark)
+    history.push('light')
+    window.location.reload();
+  }
+
   return (
     <>
       <Tabs>
@@ -75,11 +85,9 @@ const HomeDark = () => {
                 </ul>
               </div>
               {/* END MENU */}
-
-              <div className="copyright">
-                <p>
-                  {/* &copy; {new Date().getFullYear()} LOGAMILL <br />  */}
-                </p>
+              <div className="mode-toggle">
+                
+                  <WiMoonAltWaxingCrescent3 icon="fa-regular fa-sun"style={{height: "25px", width: "25px"}} onClick={toggleMode}/>
               </div>
               {/* END COPYRIGHT */}
             </div>

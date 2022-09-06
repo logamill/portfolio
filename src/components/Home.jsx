@@ -13,7 +13,8 @@ const Home = () => {
               style={{
                 backgroundImage: {background},
               }}
-            ></div>
+            >
+            </div>
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
