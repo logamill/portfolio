@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { GiSurfBoard, GiHockey, GiGuitar, GiGuitarBassHead, GiGamepad, GiSailboat, GiHiking, GiSkateboard, GiSnowing, GiDutchBike } from "react-icons/gi";
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { GiSurfBoard, GiHockey, GiGuitarBassHead, GiGamepad, GiSailboat, GiHiking, GiSkateboard, GiSnowing, GiDutchBike } from "react-icons/gi";
 import homeImg from '../assets/images/assets/img/slider/1.jpg'
 import cancel from "../assets/images/assets/img/svg/cancel.svg"
 

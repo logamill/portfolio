@@ -15,12 +15,9 @@ import paper from '../../assets/images/assets/img/svg/paper.svg';
 import mail from '../../assets/images/assets/img/svg/mail.svg'
 
 const HomeLight = () => {
-
-  const [dark, setDark] = useState(true)
   let history = useHistory();
 
   function toggleMode(){
-    setDark(!dark)
     history.push('')
     window.location.reload();
   }

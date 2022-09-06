@@ -16,12 +16,10 @@ import mail from '../../assets/images/assets/img/svg/mail.svg'
 
 
 const HomeDark = () => {
-  const [dark, setDark] = useState(true)
   document.body.classList.add("dark");
   let history = useHistory();
 
   function toggleMode(){
-    setDark(!dark)
     history.push('light')
     window.location.reload();
   }
