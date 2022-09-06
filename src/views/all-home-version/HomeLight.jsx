@@ -83,7 +83,7 @@ const HomeLight = () => {
               {/* END MENU */}
 
               <div className="mode-toggle">
-                <WiMoonAltWaxingCrescent3 icon="fa-regular fa-sun"style={{height: "25px", width: "25px"}} onClick={toggleMode}/>
+                <WiMoonAltWaxingCrescent3 icon="fa-regular fa-sun"style={{height: "25px", width: "25px", cursor: "pointer"}} onClick={toggleMode}/>
             </div>
               {/* END COPYRIGHT */}
             </div>
