@@ -176,7 +176,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Rails, ActiveRecord</span>
+                        <span className="label">Ruby on Rails, ActiveRecord</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">

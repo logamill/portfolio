@@ -24,9 +24,9 @@ const HomeDark = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="lm_logo">
-                <Link to={Home}>
+
                   <img src={logamill} alt="brand" />
-                </Link>
+               
               </div>
               {/* END LOGO */}
 

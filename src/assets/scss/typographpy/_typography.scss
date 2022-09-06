@@ -317,7 +317,7 @@ input[type="button"] {
     height: 45px;
     cursor: pointer;
     position: absolute;
-    filter: invert(1);
+    // filter: invert(1);
     transition: 0.3s;
     @media screen and (max-width: 575px) {
       width: 30px;

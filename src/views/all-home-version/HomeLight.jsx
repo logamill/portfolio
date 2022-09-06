@@ -1,9 +1,8 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/About";
-import Portfolio from "../../components/PortfolioCreative";
+import Portfolio from "../../components/Portfolio";
 import Resume from "../../components/Resume";
 import Contact from "../../components/Contact";
 import logamill from '../../assets/images/assets/img/logo/logamilldark.png';
@@ -12,10 +11,10 @@ import avatar from '../../assets/images/assets/img/svg/avatar.svg';
 import briefcase from '../../assets/images/assets/img/svg/briefcase.svg';
 import paper from '../../assets/images/assets/img/svg/paper.svg';
 import mail from '../../assets/images/assets/img/svg/mail.svg'
+import { Link } from "react-router-dom";
 
 
-
-const HomeLight = () => {
+const HomeDark = () => {
   return (
     <>
       <Tabs>
@@ -23,8 +22,8 @@ const HomeLight = () => {
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
-              <div className="logo">
-                <Link className="navbar-brand" to="/">
+              <div className="lm_logo">
+                <Link to={Home}>
                   <img src={logamill} alt="brand" />
                 </Link>
               </div>
@@ -78,14 +77,7 @@ const HomeLight = () => {
 
               <div className="copyright">
                 <p>
-                  &copy; {new Date().getFullYear()} Tokyo <br /> Created by
-                  <a
-                    href="https://themeforest.net/user/ib-themes"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Ib-Themes
-                  </a>
+                  {/* &copy; {new Date().getFullYear()} LOGAMILL <br />  */}
                 </p>
               </div>
               {/* END COPYRIGHT */}
@@ -124,7 +116,13 @@ const HomeLight = () => {
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
                 <TabPanel>
+                <div
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                    data-aos-delay="100"
+                  >
                   <Resume />
+                  </div>
                 </TabPanel>
                 {/* END RESUME MENU TAB CONTENT */}
 
@@ -149,4 +147,4 @@ const HomeLight = () => {
   );
 };
 
-export default HomeLight;
+export default HomeDark;

@@ -10,7 +10,7 @@ const Routes = () => {
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={HomeDark} />
-          <Route path="/home-light" component={HomeLight} />
+          <Route path="/light" component={HomeLight} />
         </Switch>
       </Router>
     </>
