@@ -83,10 +83,10 @@ const HomeDark = () => {
                 </ul>
               </div>
               {/* END MENU */}
-              <div className="mode-toggle">
+              {/* <div className="mode-toggle">
                 
                   <WiMoonAltWaxingCrescent3 icon="fa-regular fa-sun"style={{height: "25px", width: "25px", cursor: "pointer"}} onClick={toggleMode}/>
-              </div>
+              </div> */}
               {/* END COPYRIGHT */}
             </div>
           </div>
