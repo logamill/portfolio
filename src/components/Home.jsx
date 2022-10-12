@@ -1,6 +1,7 @@
 import React from "react";
 import Social from "./Social";
-import background from '../assets/images/assets/img/slider/1.jpg'
+import background from '../assets/pic.jpg'
+
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
             <p className="job">
               Full-Stack Software Engineer based in New York City
             </p>
-            <span><p>React | HTML | CSS | JavaScript | Ruby | Rails | Python</p></span>
+            <span><p>React | HTML | CSS | JavaScript | Ruby on Rails | Python</p></span>
             {/* END JOB */}
             <Social />
           </div>

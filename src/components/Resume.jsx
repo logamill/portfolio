@@ -96,18 +96,12 @@ const Resume = () => {
                     <h3 className="work_name">Education</h3>
                     <h5>Cornell University</h5>
                     <h6>Python Programming Certificate</h6>
-                    <h6>December 2021 - May 2022</h6>
+                    <h6>December 2021 - Oct 2022</h6>
                   </div>
                   <div className="lm_resume_bullets">
-                    <p>Completed the following certifications in the top 90% of the class</p>
-                    <ul>
-                      <li>
-                        Mastering Data Structures
-                      </li>
-                      <li>
-                        Auditing Datasets
-                      </li>
-                    </ul>
+                    <p>
+                    Wrote a sequence of scripts that pulls information from several heterogeneous data sources based on flight paths, weather, regulations, student data and day/night cycles that, based on user input, compiles all of the corresponding CSV, TXT, or JSON data to inform the user on whether the flight has fully complied with regulations and a flight is able to take place.
+                    </p>
                   </div>
                   <h5>Háskóli Íslands (University of Iceland)</h5>
                   <h6>Coursework completed towards Norse Studies Master of Arts</h6>
@@ -130,7 +124,7 @@ const Resume = () => {
                   <div className="lm_resume_bullets">
                   <ul>
                     <li>
-                      Graduated Magna Cum Laude 
+                      Magna Cum Laude 
                     </li>
                     <li>
                       Honors College Award Recipient
