@@ -87,7 +87,6 @@ const HomeDark = () => {
                 
                   <WiMoonAltWaxingCrescent3 icon="fa-regular fa-sun"style={{height: "25px", width: "25px", cursor: "pointer"}} onClick={toggleMode}/>
               </div> */}
-              {/* END COPYRIGHT */}
             </div>
           </div>
           {/* END LEFT MENU CONTENT */}
