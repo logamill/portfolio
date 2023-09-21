@@ -36,7 +36,7 @@ export default function SimpleSlider() {
     ],
   };
   return (
-    <ul>
+    <ul style={{ borderRadius: '15px', background: 'white'}}>
       <Slider {...settings}>
         <li className="brand-logo">
           <img src={rubyIcon} alt="partners brand" />

@@ -1,6 +1,6 @@
 import React from "react";
 import Social from "./Social";
-import background from '../assets/pic.jpg'
+import background from '../assets/11.jpg'
 
 
 const Home = () => {
@@ -20,11 +20,11 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Logan miller</h3>
+            <h3 className="name">Logan Miller</h3>
             <p className="job">
               Full-Stack Software Engineer based in New York City
             </p>
-            <span><p>JavaScript | React | Node | ASP.NET | MsSQL | C# | Python</p></span>
+            <span><p>JavaScript | React | Node | ASP.NET | SQL | C# | Python</p></span>
             {/* END JOB */}
             <Social />
           </div>
