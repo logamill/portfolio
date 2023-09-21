@@ -41,7 +41,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Full-stack developer experienced in Ruby on Rails, React.js, Python and JavaScript with a background in legal technology. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021 as part of an international Masters program. When I'm not coding you can find me at the beach in the summer or wherever you can find snow in the winter!
+                Full-stack developer experienced in MERN stack as well as .NET Core with a background in legal technology. Attended Háskóli Íslands (University of Iceland) in Reykjavik, Iceland from 2019-2021 as part of an international Masters program. When I'm not coding you can find me at the beach in the summer or wherever you can find snow in the winter!
               </p>
               <div className="lm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -119,7 +119,7 @@ const About = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">React, JavaScript, Redux</span>
+                        <span className="label">JavaScript, React, Redux</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -134,7 +134,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">HTML, PHP</span>
+                        <span className="label">Vue, Vite</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -144,7 +144,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">CSS, SASS, Bootstrap, Tailwind </span>
+                        <span className="label">SASS, Bootstrap, Tailwind </span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -164,7 +164,7 @@ const About = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Ruby, Python</span>
+                        <span className="label">Node, Next, Express</span>
                       
                       </span>
                       <div className="background">
@@ -174,7 +174,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Ruby on Rails, ActiveRecord</span>
+                        <span className="label">Ruby on Rails, Python, C#</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -183,7 +183,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">SQL, Postgresql, Node.js, OmniAuth</span>
+                        <span className="label">MsSQL, PostgreSQL, MongoDB</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -203,13 +203,13 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>20+</h3>
-                      <span>Projects Completed</span>
+                      <h3>100+</h3>
+                      <span>Bug Fixes / Code Remediations</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>1000+</h3>
+                      <h3>100+</h3>
                       <span>Technical Documents Written</span>
                     </div>
                   </li>

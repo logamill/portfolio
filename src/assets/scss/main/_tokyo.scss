@@ -380,6 +380,12 @@ h6 {
   cursor: pointer !important;
 }
 
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+
 @keyframes customOne {
   from {
     opacity: 0;

@@ -5,7 +5,7 @@ import { WiMoonAltWaxingCrescent3 } from "react-icons/wi";
 import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
-import Resume from "../../components/Resume";
+import Resume from "../../components/NewResume";
 import Contact from "../../components/Contact";
 import logamill from '../../assets/images/assets/img/logo/logamilldark.png';
 import homerun from '../../assets/images/assets/img/svg/home-run.svg';

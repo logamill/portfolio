@@ -24,7 +24,7 @@ const Home = () => {
             <p className="job">
               Full-Stack Software Engineer based in New York City
             </p>
-            <span><p>React | HTML | CSS | JavaScript | Ruby on Rails | Python</p></span>
+            <span><p>JavaScript | React | Node | ASP.NET | MsSQL | C# | Python</p></span>
             {/* END JOB */}
             <Social />
           </div>
