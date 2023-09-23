@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.73fbc7a3.chunk.css",
-    "main.js": "/static/js/main.03c17325.chunk.js",
-    "main.js.map": "/static/js/main.03c17325.chunk.js.map",
+    "main.css": "/static/css/main.9bf3dedd.chunk.css",
+    "main.js": "/static/js/main.3822d572.chunk.js",
+    "main.js.map": "/static/js/main.3822d572.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b393ecfe.js",
     "runtime-main.js.map": "/static/js/runtime-main.b393ecfe.js.map",
     "static/css/2.75c4713a.chunk.css": "/static/css/2.75c4713a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.7d924725.chunk.js.map": "/static/js/3.7d924725.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.75c4713a.chunk.css.map": "/static/css/2.75c4713a.chunk.css.map",
-    "static/css/main.73fbc7a3.chunk.css.map": "/static/css/main.73fbc7a3.chunk.css.map",
+    "static/css/main.9bf3dedd.chunk.css.map": "/static/css/main.9bf3dedd.chunk.css.map",
     "static/js/2.090a8dfa.chunk.js.LICENSE.txt": "/static/js/2.090a8dfa.chunk.js.LICENSE.txt",
     "static/media/1.071b0bcc.jpg": "/static/media/1.071b0bcc.jpg",
     "static/media/1.dcb73f9b.jpg": "/static/media/1.dcb73f9b.jpg",
@@ -23,6 +23,7 @@
     "static/media/12.3b0a6942.jpg": "/static/media/12.3b0a6942.jpg",
     "static/media/2.0ab71aac.jpg": "/static/media/2.0ab71aac.jpg",
     "static/media/2.3dde62bb.png": "/static/media/2.3dde62bb.png",
+    "static/media/style.scss": "/static/media/pic.195e4cfa.jpg",
     "static/media/3.0a085f2c.png": "/static/media/3.0a085f2c.png",
     "static/media/3.ac34adc4.jpg": "/static/media/3.ac34adc4.jpg",
     "static/media/4.3b646df5.png": "/static/media/4.3b646df5.png",
@@ -48,7 +49,6 @@
     "static/media/magick-product.8c934669.png": "/static/media/magick-product.8c934669.png",
     "static/media/mail.3c81d849.svg": "/static/media/mail.3c81d849.svg",
     "static/media/paper.74fdbb39.svg": "/static/media/paper.74fdbb39.svg",
-    "static/media/style.scss": "/static/media/pic.195e4cfa.jpg",
     "static/media/resume.54dd280f.pdf": "/static/media/resume.54dd280f.pdf",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/tik-tok.da20ff5f.svg": "/static/media/tik-tok.da20ff5f.svg"
@@ -57,7 +57,7 @@
     "static/js/runtime-main.b393ecfe.js",
     "static/css/2.75c4713a.chunk.css",
     "static/js/2.090a8dfa.chunk.js",
-    "static/css/main.73fbc7a3.chunk.css",
-    "static/js/main.03c17325.chunk.js"
+    "static/css/main.9bf3dedd.chunk.css",
+    "static/js/main.3822d572.chunk.js"
   ]
 }
